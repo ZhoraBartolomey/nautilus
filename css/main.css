@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    margin: 0;
+}
+p {
+    margin: 0.25em 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.flscreen-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 98vh;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    font-size: 1.2em;
+    padding: 10%;
+}
+
+#page-1 {
+    background-image: url(/img/background-1-dark.jpg);
+}
+
+#page-1 h1 {
+    text-align: center;
+    font-size: 4em;
+}
+#page-1 .icon {
+    width: 80%;
+}
+
+#page-2 {
+    
+    
+    background-image: url(/img/background-2-dark.jpg);
+    
+}
+
+#page-3 {
+    background-image: url(/img/background-3-dark.jpg);
+}
+
+#page-4 {
+    background-image: url(/img/background-4-dark.jpg);
+    background-position-x: -200px;
+}
+
+video {
+    width:100%;
+    height: 100%;;
+    object-fit: cover;
+
+}
+#page-video {
+    padding: 0;
+}
